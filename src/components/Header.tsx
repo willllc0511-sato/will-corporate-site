@@ -14,20 +14,20 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
-          <a href="#about" className="hover:text-indigo-600 transition-colors">
-            代表紹介
-          </a>
           <a
             href="#services"
             className="hover:text-indigo-600 transition-colors"
           >
-            事業内容
+            サービス
+          </a>
+          <a href="#flow" className="hover:text-indigo-600 transition-colors">
+            ご利用の流れ
           </a>
           <a
-            href="#company"
+            href="#local"
             className="hover:text-indigo-600 transition-colors"
           >
-            会社情報
+            私たちについて
           </a>
           <a
             href="#contact"
@@ -72,25 +72,25 @@ export default function Header() {
       {isOpen && (
         <nav className="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-3 text-sm text-gray-600">
           <a
-            href="#about"
-            className="block py-2 hover:text-indigo-600"
-            onClick={() => setIsOpen(false)}
-          >
-            代表紹介
-          </a>
-          <a
             href="#services"
             className="block py-2 hover:text-indigo-600"
             onClick={() => setIsOpen(false)}
           >
-            事業内容
+            サービス
           </a>
           <a
-            href="#company"
+            href="#flow"
             className="block py-2 hover:text-indigo-600"
             onClick={() => setIsOpen(false)}
           >
-            会社情報
+            ご利用の流れ
+          </a>
+          <a
+            href="#local"
+            className="block py-2 hover:text-indigo-600"
+            onClick={() => setIsOpen(false)}
+          >
+            私たちについて
           </a>
           <a
             href="#contact"

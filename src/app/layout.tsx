@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "合同会社Will | 鹿児島から、AIを\u201C使える形\u201Dで届ける",
+  title: "合同会社Will｜鹿児島から、AIを\u201C使える形\u201Dでお届けします",
   description:
-    "鹿児島拠点のAI導入支援会社。ChatGPT・Claude・Gemini・Microsoft CopilotなどのAIを、地域の事業者さまの仕事で使える形に整えます。",
+    "鹿児島拠点のAI導入支援。ChatGPT・Claude・Gemini・Microsoft Copilotなどを、地域の事業者さまの今のお仕事で使える形に整えます。まずは3分の無料診断から。",
   openGraph: {
-    title: "合同会社Will | 鹿児島から、AIを\u201C使える形\u201Dで届ける",
+    title: "合同会社Will｜鹿児島から、AIを\u201C使える形\u201Dでお届けします",
     description:
-      "鹿児島拠点のAI導入支援会社。ChatGPT・Claude・Gemini・Microsoft CopilotなどのAIを、地域の事業者さまの仕事で使える形に整えます。",
+      "鹿児島拠点のAI導入支援。ChatGPT・Claude・Gemini・Microsoft Copilotなどを、地域の事業者さまの今のお仕事で使える形に整えます。",
     locale: "ja_JP",
     type: "website",
   },

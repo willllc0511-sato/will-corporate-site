@@ -6,12 +6,12 @@ const items = [
   "まずは相談できる相手がほしい",
 ];
 
-export default function Recommend() {
+export default function Problems() {
   return (
     <section className="py-16 sm:py-20 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900">
-          こんな方におすすめです
+          こんなお困りごとありませんか？
         </h2>
         <ul className="mt-10 space-y-4">
           {items.map((item) => (
@@ -35,6 +35,9 @@ export default function Recommend() {
             </li>
           ))}
         </ul>
+        <p className="mt-8 text-center text-gray-500 text-sm">
+          ひとつでも当てはまる方は、まず無料診断をお試しください。
+        </p>
       </div>
     </section>
   );
